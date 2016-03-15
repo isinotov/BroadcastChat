@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BroadcastChat</string>
+    <string name="send_button">send</string>
+</resources>
