@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name="chat.webinar.ru.broadcastchat.Network.ServerService"
+            android:name="chat.webinar.ru.broadcastchat.network.ServerService"
             android:enabled="true" />
     </application>
 

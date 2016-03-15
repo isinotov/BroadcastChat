@@ -1,4 +1,4 @@
-package chat.webinar.ru.broadcastchat.Network;
+package chat.webinar.ru.broadcastchat.network;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

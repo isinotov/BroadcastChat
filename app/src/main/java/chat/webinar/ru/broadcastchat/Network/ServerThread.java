@@ -1,4 +1,4 @@
-package chat.webinar.ru.broadcastchat.Network;
+package chat.webinar.ru.broadcastchat.network;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,7 +15,7 @@ import chat.webinar.ru.broadcastchat.ChatMessage;
  */
 public class ServerThread extends Thread {
 
-    Context context;
+    private Context context;
 
     public ServerThread(Context context) {
         this.context = context;

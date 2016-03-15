@@ -20,21 +20,20 @@ import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import chat.webinar.ru.broadcastchat.Network.Client;
+import chat.webinar.ru.broadcastchat.network.Client;
 
 public class MainActivity extends AppCompatActivity {
 
 
-    ListView listView;
-    ArrayAdapter<String> adapter;
-    EditText messageText;
-    Button sendButton;
+    private ListView listView;
+    private ArrayAdapter<String> adapter;
+    private EditText messageText;
+    private Button sendButton;
 
-    public static final String DATA_MESSAGE = "message";
     public static final String ACTION_MESSAGE = "chat.webinar.ru.broadcastchat.message";
 
-    IntentFilter filter = new IntentFilter(ACTION_MESSAGE);
-    Executor executor = Executors.newSingleThreadExecutor();
+    private IntentFilter filter = new IntentFilter(ACTION_MESSAGE);
+    private Executor executor = Executors.newSingleThreadExecutor();
 
 
     protected void onCreate(Bundle savedInstanceState) {

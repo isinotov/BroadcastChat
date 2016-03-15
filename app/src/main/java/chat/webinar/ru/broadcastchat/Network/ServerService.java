@@ -1,4 +1,4 @@
-package chat.webinar.ru.broadcastchat.Network;
+package chat.webinar.ru.broadcastchat.network;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.util.Log;
  */
 public class ServerService extends IntentService {
 
-    Thread serverThread;
+    private Thread serverThread;
 
     public ServerService() {
         super("Server");

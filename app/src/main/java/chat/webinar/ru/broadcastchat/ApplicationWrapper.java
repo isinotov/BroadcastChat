@@ -5,7 +5,7 @@ import android.content.Intent;
 
 import com.orm.SugarContext;
 
-import chat.webinar.ru.broadcastchat.Network.ServerService;
+import chat.webinar.ru.broadcastchat.network.ServerService;
 
 /**
  * Created by isinotov on 15/03/2016.
